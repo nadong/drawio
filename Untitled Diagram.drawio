@@ -1,11 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2021-03-19T09:00:24.850Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="PKMNlVJeyR1wu5p2n6B1" version="14.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-19T09:04:53.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36" etag="pKFTUxhKuU4NMrOo0jkc" version="14.4.9" type="github">
   <diagram id="FKqAZufUGknM8MceFIrd" name="Page-1">
-    <mxGraphModel dx="1001" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1001" dy="709" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="1700" background="#F1FAEE" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="tyn3VfLUGQ_FfBXSc459-5" value="" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="50" y="230" width="90" height="60" as="geometry" />
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="u7AtyUlaAKWGp2m2ATKs-1" target="u7AtyUlaAKWGp2m2ATKs-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-1" value="UpstreamSensor" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="30" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="u7AtyUlaAKWGp2m2ATKs-3" target="u7AtyUlaAKWGp2m2ATKs-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-3" value="AllocateResource" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="230" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="u7AtyUlaAKWGp2m2ATKs-5" target="u7AtyUlaAKWGp2m2ATKs-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-5" value="Transform&amp;amp;Agg" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="430" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;labelBackgroundColor=#F1FAEE;strokeColor=#457B9D;fontColor=#1D3557;" edge="1" parent="1" source="u7AtyUlaAKWGp2m2ATKs-7" target="u7AtyUlaAKWGp2m2ATKs-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-7" value="Publisher" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="630" y="240" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="u7AtyUlaAKWGp2m2ATKs-9" value="DeallocateResource" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;rounded=1;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="830" y="240" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
